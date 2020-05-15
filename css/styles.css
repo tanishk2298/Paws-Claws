@@ -1,0 +1,195 @@
+body{
+    font-family: "Montserrat";
+}
+
+
+#title{
+    background-color: #3f72af;
+    color: #fff;
+    position: relative;
+}
+.logo{
+    transform: rotate(-20deg);
+}
+@media (max-width: 1028px){
+    .logo{
+        position: relative;
+        right: 60px;
+        transform: rotate(-20deg);
+    }
+}
+h5{
+    font-family: 'Bad Script', cursive;
+    font-size: 2.2rem;
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat-Bold";
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    position: absolute;
+    z-index: 0; /* default z index is set to 0, so this line doesnot do anything */
+    top: 5%;
+    left: -10%;
+    width: 150%;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        left: 50%;
+        padding-top: 7%;
+        width: 100%;
+    }
+}
+
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1; /* since we want feature section above title image we set z index to 1. but since it is placed after title-img in html flow we dont have to write this */
+}
+.feature-row{
+    padding: 5%;
+    text-align: center;
+}
+.feature-row h3{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+}
+.feature-row p{
+    font-family: "Montserrat";
+    color: #8f8f8f;
+}
+.icon{
+    color: #3d84a8;
+    margin-bottom: 1.5rem;
+}
+.icon:hover{
+    color: #3f72af;
+}
+
+
+
+#mission{
+    background-color: #3f72af;
+    color: #fff;
+    text-align: left;
+    padding: 100px;
+    padding: 7% 15%;
+}
+#mission p{
+    font-weight: 300;
+    line-height: 1.5;
+    color: #fff;
+    padding: 5% 0%;
+}
+.mission-pets{
+    position: relative;
+    left: 100px;
+    top: 200px;
+    width: 100%;
+}
+.mission-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+@media (max-width: 1028px){
+    #mission{
+        text-align: center;
+    }
+    .mission-pets{
+        position: static;
+        left: 50%;
+        padding-top: 7%;
+        width: 100%;
+    }
+}
+
+
+
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-coloumn{
+    padding: 5% 5% 3%;
+}
+#pricing p{
+    font-weight: 300;
+    color: #8f8f8f;
+}
+
+
+#testimonials{
+    background-color: #3f72af;
+    color: #fff;
+    text-align: center;
+}
+.testimonial-text{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 50px auto 10px;
+}
+.carousel-item{
+    padding: 6% 15%;
+}
+
+
+
+
+
+#footer{
+    text-align: center;
+    background-color: #27496d;
+    padding: 2% 10%;
+    color: #fff;
+}
+.social-icon{
+    margin: 20px 20px;
+    color: #fff;
+}
+#footer p{
+    font-weight: 300;
+    color:#fff;
+}
