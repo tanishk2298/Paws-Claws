@@ -10,4 +10,4 @@ An advertisement website for a fictional pet care application called "Paws & Cla
 
 ### Demo : 
 
-[pawsandclaws](tanishk2298.github.io/paws-claws/)
+[pawsandclaws](https://tanishk2298.github.io/Paws-Claws/)
